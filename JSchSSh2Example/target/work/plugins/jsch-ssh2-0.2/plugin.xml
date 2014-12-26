@@ -1,0 +1,27 @@
+<plugin name='jsch-ssh2' version='0.2' grailsVersion='2.0 &gt; *'>
+  <author>Michael Rice</author>
+  <authorEmail>michael@michaelrice.org</authorEmail>
+  <title>Jsch Ssh2 Plugin</title>
+  <description>Provides JSCH SSH library and a couple of handy builders to ease use from a grails app.</description>
+  <documentation>http://michaelrice.github.io/grails-jsch-ssh2</documentation>
+  <type>JschSsh2GrailsPlugin</type>
+  <resources>
+    <resource>DefaultJschSsh2Config</resource>
+  </resources>
+  <repositories>
+    <repository name='grailsCentral' url='http://grails.org/plugins' />
+    <repository name='mavenCentral' url='http://repo1.maven.org/maven2/' />
+    <repository name='http://snapshots.repository.codehaus.org' url='http://snapshots.repository.codehaus.org/' />
+    <repository name='http://repository.codehaus.org' url='http://repository.codehaus.org/' />
+    <repository name='http://download.java.net/maven/2/' url='http://download.java.net/maven/2/' />
+    <repository name='http://repository.jboss.com/maven2/' url='http://repository.jboss.com/maven2/' />
+  </repositories>
+  <dependencies>
+    <compile>
+      <dependency group='com.jcraft' name='jsch' version='0.1.51' />
+    </compile>
+  </dependencies>
+  <plugins />
+  <runtimePluginRequirements />
+  <behavior />
+</plugin>
